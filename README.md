@@ -1,12 +1,12 @@
 # Generator / Evaluator Example
 
-In this system the Generator will send a series of random arithmetic expressions, while the Evaluator will accept these expressions, compute the result and then report the solution to the Generator.
+In this system the Generator sends a series of random arithmetic expressions. The Evaluator accepts these expressions, computes the result and then reports the solution back to the Generator.
 
 The Generator can be found in [generator](/generator).
 
 The Evaluator can be found in [evaluator](/evaluator).
 
-The code was split up into two separate projects with the intention that projects could be eventually split into their own repo's and run on separate machines. Each directory has a corresponding `test` subdirectory with mocha / chai unit tests.
+The code was split up into two separate projects with the intention that projects could be eventually split into their own repo's and run on separate machines. Each directory has `src`, `dist` and `test` subdirectories. `src` have ES2015 code, which is transpiled to ES5 inside of `dist`. `test` has mocha / chai unit tests.
 
 ## Installation
 
