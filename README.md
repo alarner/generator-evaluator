@@ -6,7 +6,7 @@ The Generator can be found in [generator](/generator).
 
 The Evaluator can be found in [evaluator](/evaluator).
 
-The code was split up into two separate projects with the intention that projects could be eventually split into their own repo's and run on separate machines. Each directory has `src`, `dist` and `test` subdirectories. `src` have ES2015 code, which is transpiled to ES5 inside of `dist`. `test` has mocha / chai unit tests.
+The code was split up into two separate projects with the intention that projects could be eventually split into their own repo's. Each directory has `src`, `dist` and `test` subdirectories. `src` have ES2015 code, which is transpiled to ES5 inside of `dist`. `test` has mocha / chai unit tests.
 
 ## Installation
 
