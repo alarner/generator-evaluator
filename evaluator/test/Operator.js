@@ -28,15 +28,4 @@ describe('Operator', function() {
 			expect(plus.hasPriority(divide)).to.be.false;
 		});
 	});
-	// describe('peek', function() {
-	// 	it('should throw an error if there are no elements', function() {
-	// 		let s = new Stack();
-	// 		expect(function() { s.peek(); }).to.throw('Stack has no elements, cannot peek');
-	// 	});
-	// 	it('should return the last element', function() {
-	// 		let s = new Stack(['a', 'b']);
-	// 		s.push('77');
-	// 		expect(s.peek()).to.equal('77');
-	// 	});
-	// });
 });
